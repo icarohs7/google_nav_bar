@@ -1,7 +1,7 @@
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
-import 'package:line_icons/line_icons.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:line_icons/line_icons.dart';
 
 void main() => runApp(MyApp());
 
@@ -151,8 +151,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 : Badge(
                                     badgeColor: Colors.red.shade100,
                                     elevation: 0,
-                                    position: BadgePosition.topRight(
-                                        top: -12, right: -12),
+                                    position: BadgePosition.topEnd(
+                                        top: -12, end: -12),
                                     badgeContent: Text(
                                       badge.toString(),
                                       style:

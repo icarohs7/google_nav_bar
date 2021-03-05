@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:line_icons/line_icons.dart';
 
 void main() => runApp(MaterialApp(
     builder: (context, child) {
@@ -69,19 +68,19 @@ class _ExampleState extends State<Example> {
                 tabBackgroundColor: Colors.grey[100],
                 tabs: [
                   GButton(
-                    icon: LineIcons.home,
+                    icon: Icons.home_outlined,
                     text: 'Home',
                   ),
                   GButton(
-                    icon: LineIcons.heart_o,
+                    icon: Icons.favorite_border,
                     text: 'Likes',
                   ),
                   GButton(
-                    icon: LineIcons.search,
+                    icon: Icons.search,
                     text: 'Search',
                   ),
                   GButton(
-                    icon: LineIcons.user,
+                    icon: Icons.person_outline,
                     text: 'Profile',
                   ),
                 ],
